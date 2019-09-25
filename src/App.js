@@ -101,7 +101,7 @@ render() {
           </div>
 
           <div className="col mx-auto col-md-8 mt-4" aria-hidden="true">
-          <h3 className="Text-white">Bienvenue :D</h3>
+          <h3 className="Text-white text-center">Bienvenue :D</h3>
           <h4></h4>
             <TodoInput 
               item={this.state.item} 

@@ -6,7 +6,7 @@ class TodoList extends Component {
         const {items, clearList, handleDelete, handleEdit} = this.props
         return (
             <ul  className="List-group">
-                 <h4 className="text-capitalize text-center">Voici la liste des taches a rendre pour hier xD :</h4>
+                 <h4 className="text-center">Voici la liste des taches à rendre pour hier:</h4>
                  {
                      items.map(item => {
                          return(
@@ -21,8 +21,8 @@ class TodoList extends Component {
                  }
                  <button 
                     type="submit" 
-                    className=" btn btn-link btn-lock text-capitalize mt-5"
-                    onClick={clearList}>Videt la liste !</button>
+                    className=" btn btn-link btn-lock text-center mt-5"
+                    onClick={clearList}>Vider la liste !</button>
             </ul>
         );
     }
