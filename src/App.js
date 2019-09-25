@@ -96,7 +96,7 @@ render() {
             <div class="clouds"></div>
           </div>
 
-          <div className="col-5 mx-auto col-md-8 mt-4" aria-hidden="true">
+          <div className="col mx-auto col-md-8 mt-4" aria-hidden="true">
           <h3 className="Text-white">Bienvenue :D</h3>
           <h4></h4>
             <TodoInput 

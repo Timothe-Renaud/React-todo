@@ -17,7 +17,7 @@ class TodoItems extends Component {
                     className="btn btn-danger mx-2"
                     onClick={handleDelete}
                     >
-                    supp
+                    X
                     </button>
                 </div>                
             </li>
