@@ -5,6 +5,7 @@ import '../src/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import uuid from  "uuid";
 
+import AppBar from '@material-ui/core/AppBar';
 import TodoInput from './compt/Todoinput';
 import TodoListe from './compt/TodoList';
 
@@ -85,8 +86,11 @@ class App extends Component {
   }
 
 render() {
-  return (
+  return (    
   <div className="App">
+    <AppBar color="primary" position="static">
+          <h1>Ma ToDo List :D</h1>
+        </AppBar>
       <div className="container">
         <div className="row">
           <div class="background-container">

@@ -5,7 +5,7 @@ class TodoList extends Component {
     render() {
         const {items, clearList, handleDelete, handleEdit} = this.props
         return (
-            <ul  className="List-group my-5">
+            <ul  className="List-group">
                  <h4 className="text-capitalize text-center">Voici la liste des taches a rendre pour hier xD :</h4>
                  {
                      items.map(item => {
