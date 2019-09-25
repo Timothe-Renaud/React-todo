@@ -6,7 +6,7 @@ class TodoList extends Component {
         const {items, clearList, handleDelete, handleEdit} = this.props
         return (
             <ul  className="List-group my-5">
-                 <h4 className="text-capitalize text-center">Piste, voici t'as liste</h4>
+                 <h4 className="text-capitalize text-center">Piste, voici ta liste</h4>
                  {
                      items.map(item => {
                          return(
